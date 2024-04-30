@@ -171,11 +171,11 @@ module.exports = {
 			missingMessage: "Please enter the message you want to send to admin",
 			sendByGroup: "\n- Sent from group: %1\n- Thread ID: %2",
 			sendByUser: "\n- Sent from user",
-			content: "\n\nContent:\n─────────────────\n%1\n─────────────────\nReply this message to send message to user",
+			content: "\n\nContent:\n✰✰✰✰✰✰✰✰✰✰\n%1\n✰✰✰✰✰✰✰✰✰✰\nReply this message to send message to user",
 			success: "Sent your message to admin successfully!",
-			reply: "📍 Reply from admin %1:\n─────────────────\n%2\n─────────────────\nReply this message to continue send message to admin",
+			reply: "📍 Reply from admin %1:\n✰✰✰✰✰✰✰✰✰✰\n%2\n✰✰✰✰✰✰✰✰✰✰\nReply this message to continue send message to admin",
 			replySuccess: "Sent your reply to admin successfully!",
-			feedback: "📝 Feedback from user %1:\n- User ID: %2%3\n\nContent:\n─────────────────\n%4\n─────────────────\nReply this message to send message to user",
+			feedback: "📝 Feedback from user %1:\n- User ID: %2%3\n\nContent:\n✰✰✰✰✰✰✰\n%4\n✰✰✰✰✰✰✰✰✰✰\nReply this message to send message to user",
 			replyUserSuccess: "Sent your reply to user successfully!"
 		}
 	},
