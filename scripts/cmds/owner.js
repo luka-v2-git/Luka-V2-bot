@@ -31,7 +31,7 @@ module.exports = {
           gender: '𝐁𝐨𝐲',
           hobby: '𝐏𝐥𝐚𝐲 🏀 𝐁𝐚𝐬𝐤𝐞𝐭𝐛𝐚𝐥𝐥 🏀 with my best friends🇺🇸 ',
           relationship: '𝐌𝐚𝐫𝐫𝐢𝐞𝐝 with 𝙈𝙔 𝘽𝘼𝘽𝙔 𝗕𝗼𝘁 i love this bot 🥺',
-          facebookLink: ' ',
+          facebookLink: 'https://www.facebook.com/profile.php?id=61553923074004',
           bio: '𝐏𝐥𝐚𝐲 𝐛𝐚𝐬𝐤𝐞𝐭-𝐛𝐚𝐥𝐥 𝐢𝐬 𝐦𝐲 𝐝𝐫𝐞𝐚𝐦 🔖'
         };
 
