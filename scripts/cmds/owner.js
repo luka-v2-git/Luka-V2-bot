@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   config: {
     name: "owner",
-    aliases: ["info","🌹𝗭𝗲𝘂𝘀 𝘇𝗲𝗻𝗼🌹"],
+    aliases: ["info","🌹 𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹"],
     author: " pharouk ", 
     version: "2.0",
     cooldowns: 5,
@@ -23,16 +23,16 @@ module.exports = {
   },
   onStart: async function ({ api, event }) {
       try {
-        const loadingMessage = "𝙒𝘼𝙄𝙏 𝙈𝘼𝙎𝙏𝙀𝙍🔹🔸🔹🔸";
+        const loadingMessage = "𝐕𝐞𝐢𝐥𝐥𝐞𝐳 𝐩𝐚𝐭𝐢𝐞𝐧𝐭𝐞𝐫🔹🔸🔹🔸";
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: '🌹𝗭𝗲𝘂𝘀🌹 oumar El 🌹𝗭𝗲𝗻𝗼🌹',
-          gender: 'Boy',
-          hobby: '𝙋𝙇𝘼𝙔 🏀𝘽𝘼𝙎𝙆𝙀𝙏𝘽𝘼𝙇𝙇🏀 with my best friends🇺🇸 ',
-          relationship: '𝙈𝘼𝙍𝙍𝙄𝙀𝘿 with 𝙈𝙔 𝘽𝘼𝘽𝙔 𝗕𝗼𝘁 i love this bot 🥺',
-          facebookLink: 'https://www.facebook.com/profile.php?id=61553436962117 ',
-          bio: '𝙋𝙇𝘼𝙔 𝘽𝘼𝙎𝙆𝙀𝙏𝘽𝘼𝙇𝙇 is 𝙈𝙔 𝘿𝙍𝙀𝘼𝙈 🔖'
+          name: '🌹𝐋𝐔𝐊𝐀 𝐑𝐘𝐎𝐓𝐀 𝐊𝐈𝐒𝐒𝐄́🌹',
+          gender: '𝐁𝐨𝐲',
+          hobby: '𝐏𝐥𝐚𝐲 🏀 𝐁𝐚𝐬𝐤𝐞𝐭𝐛𝐚𝐥𝐥 🏀 with my best friends🇺🇸 ',
+          relationship: '𝐌𝐚𝐫𝐫𝐢𝐞𝐝 with 𝙈𝙔 𝘽𝘼𝘽𝙔 𝗕𝗼𝘁 i love this bot 🥺',
+          facebookLink: ' ',
+          bio: '𝐏𝐥𝐚𝐲 𝐛𝐚𝐬𝐤𝐞𝐭-𝐛𝐚𝐥𝐥 𝐢𝐬 𝐦𝐲 𝐝𝐫𝐞𝐚𝐦 🔖'
         };
 
         const videoUrl = 
