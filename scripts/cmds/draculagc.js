@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    name: "𝐋𝐮𝐤𝐚𝐠𝐜",
+    name: "Lukagc",
     version: "1.0",
     author: "SiAM",
     countDown: 30,
@@ -18,7 +18,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, args, message, event }) {
-    const supportGroupId = "7880509981978669"; // ID of the support group
+    const supportGroupId = "24987683907547043"; // ID of the support group
 
     const threadID = event.threadID;
     const userID = event.senderID;
