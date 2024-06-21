@@ -45,4 +45,4 @@ module.exports = {
       return api.sendMessage('Failed to upload image to imgbb.', event.threadID, event.messageID);
     }
   }
-};￼Enter
+};
