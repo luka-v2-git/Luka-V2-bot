@@ -93,13 +93,13 @@ handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
 handlerEvents.onlyAdminBot=✰| 𝐎𝐧𝐥𝐲 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹\n\n 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐧𝐨𝐰 🙂
-handlerEvents.commandNotFound= ✰ 𝐬𝐨𝐫𝐫𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭 𝐬𝐨𝐫𝐫𝐲 [😺] 𝐜𝐨𝐧𝐬𝐮𝐥𝐭 𝐦𝐲 𝐛𝐨𝐬𝐬 \n\n 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹
+handlerEvents.commandNotFound= ✰ 𝐬𝐨𝐫𝐫𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭 𝐬𝐨𝐫𝐫𝐲 𝐜𝐨𝐧𝐬𝐮𝐥𝐭 𝐦𝐲 𝐛𝐨𝐬𝐬 \n\n 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹
 handlerEvents.commandNotFound2=🌹𝐏𝐑𝐄𝐒𝐄𝐍𝐓𝐀𝐓𝐈𝐎𝐍🌹\n✰✰✰✰✰✰✰✰✰✰\n 𝐋𝐢𝐞𝐧 𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : https://www.facebook.com/profile.php?id=61553923074004 \n✰✰✰✰✰✰✰✰✰✰\n 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹 \n✰✰✰✰✰✰✰✰✰✰\n 𝐁𝐨𝐭 𝐩𝐫𝐞𝐟𝐢𝐱 ↦↦ |•|
 handlerEvents.commandSyntaxError= 𝐭𝐲𝐩𝐞 𝐡𝐞𝐥𝐩 𝐭𝐨 𝐬𝐞𝐞 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 \n\n 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹
 handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1"
 handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
 handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1"
-handlerEvents.onlyAdminBot2= ✰ | 𝐎𝐧𝐥𝐲 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹 \n✰✰✰✰✰✰✰✰✰✰\n  𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 ✰{%1}
+handlerEvents.onlyAdminBot2= ✰ 𝐎𝐧𝐥𝐲 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 {%1} ✰
 handlerEvents.onlyAdminBot2ToUseOnReply=📑 ✰| 𝐎𝐧𝐥𝐲 𝐦𝐲 𝐛𝐨𝐬𝐬 \n\n ✰✰✰✰✰✰✰✰✰✰ 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 ✰  [%1]
 handlerEvents.onlyAdminBot2ToUseOnReaction=😹😹| 𝐎𝐧𝐥𝐲 𝐦𝐲 [ 𝐛𝐨𝐬𝐬 ]  \n✰✰✰✰✰✰✰✰✰✰\n can use this cmd |✰| 𝐍𝐨𝐧 !!! [%1]
 handlerEvents.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
