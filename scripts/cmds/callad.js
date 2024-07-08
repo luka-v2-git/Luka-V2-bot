@@ -34,15 +34,15 @@ module.exports = {
 			noAdmin: "Hiện tại bot chưa có admin nào"
 		},
 		en: {
-			missingMessage: "✰𝐐𝐮𝐞𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐯𝐨𝐮𝐥𝐞𝐳 𝐯𝐨𝐮𝐬 𝐞𝐧𝐯𝐨𝐲𝐞𝐳 𝐚̀ 𝐦𝐨𝐧 𝐦𝐚𝐢𝐭𝐫𝐞 🌹 𝐋𝐮𝐤𝐚 𝐑𝐊 🌹..? ✰ ",
+			missingMessage: "✰𝐐𝐮𝐞𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐯𝐨𝐮𝐥𝐞𝐳 𝐯𝐨𝐮𝐬 𝐞𝐧𝐯𝐨𝐲𝐞𝐳 𝐚̀ 𝐦𝐨𝐧 𝐦𝐚𝐢𝐭𝐫𝐞 ? ✰ ",
 			sendByGroup: "",
 			sendByUser: "",
-			content: "\n✰✰✰✰✰✰✰✰✰✰\n\n%1\n\n✰✰✰✰✰✰✰✰✰✰ 🌹 𝐋𝐮𝐤𝐚 𝐑𝐊  🌹 ",
+			content:💌 𝐑𝐞𝐩𝐨𝐧𝐬𝐞 𝐝𝐞 𝐥'𝐚𝐝𝐦𝐢𝐧 𝐝𝐮 𝐛𝐨𝐭 💘 "\n✰✰✰✰✰✰✰✰✰✰\n\n%1\n\n✰✰✰✰✰✰✰✰✰✰ 🌹 𝐋𝐮𝐤𝐚 𝐛𝐨𝐭🌹 ",
 			success: "Sent your message to %1 admin successfully!\n%2",
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
-			reply: "✰✰✰✰✰✰✰✰✰✰\n\n%2\n\n✰✰✰✰✰✰✰✰✰✰ 🌹 𝐋𝐮𝐤𝐚 𝐑𝐊 🌹  ",
-			replySuccess: "✰ 𝐕𝐨𝐭𝐫𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐚 𝐞𝐭𝐞 𝐞𝐧𝐯𝐨𝐲𝐞𝐫 𝐚𝐯𝐞𝐜 𝐬𝐮𝐜𝐜𝐞𝐬 𝐚̀ 𝐦𝐨𝐧 𝐜𝐫𝐞𝐚𝐭𝐞𝐮𝐫 🌹𝐋𝐮𝐤𝐚 𝐑𝐊🌹 ! ✰",
-			feedback: "✰✰✰✰✰✰✰✰✰✰\n\n %4\n\n✰✰✰✰✰✰✰✰✰✰🌹 𝐋𝐮𝐤𝐚 𝐑𝐊 🌹  ",
+			reply: "💌 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐞𝐧𝐯𝐨𝐲𝐞́ 𝐩𝐚𝐫 𝐥'𝐮𝐭𝐢𝐥𝐢𝐬𝐚𝐭𝐞𝐮𝐫 𝐝𝐮 𝐛𝐨𝐭 💘✰✰✰✰✰✰✰✰✰✰\n\n%2\n\n✰✰✰✰✰✰✰✰✰✰ 🌹 𝐋𝐮𝐤𝐚 𝐛𝐨𝐭 🌹  ",
+			replySuccess: "✰ 𝐕𝐨𝐭𝐫𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐚 𝐞𝐭𝐞 𝐞𝐧𝐯𝐨𝐲𝐞𝐫 𝐚𝐯𝐞𝐜 𝐬𝐮𝐜𝐜𝐞𝐬 𝐚̀ 𝐦𝐨𝐧 𝐜𝐫𝐞𝐚𝐭𝐞𝐮𝐫 🌹𝐋𝐮𝐤𝐚 𝐫𝐲𝐨𝐭𝐚 𝐤𝐢𝐬𝐬𝐞́🌹 ! ✰",
+			feedback: "✰✰✰✰✰✰✰✰✰✰\n\n %4\n\n✰✰✰✰✰✰✰✰✰✰🌹 𝐋𝐮𝐤𝐚 𝐛𝐨𝐭🌹  ",
 			replyUserSuccess: "Sent your reply to user successfully!",
 			noAdmin: "Bot has no admin at the moment"
 		}
@@ -56,7 +56,7 @@ module.exports = {
 		if (config.adminBot.length == 0)
 			return message.reply(getLang("noAdmin"));
 		const senderName = await usersData.getName(senderID);
-		const msg = "==🌹𝐋𝐮𝐤𝐚 𝐑𝐊🌹=="
+		const msg = "==🌹𝐋𝐮𝐤𝐚 𝐛𝐨𝐭🌹=="
 			+ `\n- User Name: 🧸${senderName}🧸`
 			+ `\n- User ID: 👑${senderID}👑`
 			+ (isGroup ? getLang("sendByGroup", (await threadsData.get(threadID)).threadName, threadID) : getLang("sendByUser"));
