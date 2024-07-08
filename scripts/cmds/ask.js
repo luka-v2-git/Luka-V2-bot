@@ -74,7 +74,7 @@ module.exports = {
             const input = messageContent.replace(/^ai\s*/, "").trim();
             const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
             // Construct message with special fonts
-            const formattedResponse = ` 🌹𝐋𝐮𝐤𝐚 𝐛𝐨𝐭🌹 \n✰✰✰✰✰✰✰✰\n🪶${response} 🪶\n ✰✰✰✰✰✰✰✰`;
+            const formattedResponse = ` 🌹𝐋𝐮𝐤𝐚 𝐛𝐨𝐭🌹 \n✰✰✰✰✰✰✰✰✰✰\n🪶${response} 🪶\n✰✰✰✰✰✰✰✰✰✰`;
             message.reply(formattedResponse, messageID);
         }
     }
